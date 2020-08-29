@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing normalize, bootstrap, fontawesome, and my own css -->
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+
+    <title>Purrington | Developer</title>
+</head>
+<body>
+    <a name="Home"></a>
+
+    <nav class="navbar nav-trans fixed-top navbar-dark bg-dark" id="navbar">
+        <a class="navbar-brand" href="index.html">Eric Purrington</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="navbar-nav float-right">
+                <a class="nav-item nav-link" href="#Home">Home</a>
+                <a class="nav-item nav-link" href="#Skills">Skills</a>
+                <a class="nav-item nav-link" href="#Projects">Projects</a>
+                <a class="nav-item nav-link" href="#Contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>Let's Work Together</h1>
+        </div>
+    </div>
+    <div id="stopTransparence"></div>
+
+    <div class="container-fluid text-center heroCard">
+        <h2>Full-Stack Web Developer/Software Engineer</h2>
+        <img class="myImg" src="assets/images/hike.jpeg" alt="Picture of me">
+        <h5>A creative problem solver with a propensity towards perfectionism.</h5>
+        <a href="https://github.com/eric-purrington" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/ericpurrington/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="mailto:eric.purrington@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+    </div>
+
+    <div class="container-fluid marginCon">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card animate__animated animate__bounce animate__delay-4s">
+                    <div class="card-header text-center"><h2>Frontend</h2></div>
+                    <div class="card-body">
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>PWA</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>JSX</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card animate__animated animate__bounce animate__delay-4s">
+                    <div class="card-header text-center"><h2>Backend</h2></div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Node</li>
+                            <li>REST</li>
+                            <li>Express</li>
+                            <li>APIs</li>
+                            <li>Handlebars</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card animate__animated animate__bounce animate__delay-4s">
+                    <div class="card-header text-center"><h2>Skills</h2></div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Version Control</li>
+                            <li>Adaptable</li>
+                            <li>Multitasker</li>
+                            <li>Teacher</li>
+                            <li>Detail Oriented</li>
+                            <li>Innovative</li>
+                            <li>Competitive</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center marginCon">
+        <a name="Projects"></a>
+        <h1>Recent Projects</h1>
+        <div class="container collabCon">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card text-center h-100">
+                        <div class="card-header"><h2>Vote Goat</h2></div>
+                        <div class="card-body">
+                            <img src="assets/images/VoteGoat.gif" class="card-img-top">
+                            <p class="card-text">A web application that provides users with information about when, where, and how to vote in their area.</p>
+                            <a href="https://vote-goat.herokuapp.com" class="btn btn-primary" target="_blank">Vote Goat</a> <a href="https://github.com/eric-purrington/Voting-App" class="btn btn-primary" target="_blank">App's Github Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card text-center h-100">
+                        <div class="card-header"><h2>TinyLearn</h2></div>
+                        <div class="card-body">
+                            <img src="assets/images/TinyLearn.gif" class="card-img-top">
+                            <p class="card-text">A microlearning application that serves a random page from Wikipedia and allows users to save and rate that page for later learning.</p>
+                            <a href="https://tinylearn.herokuapp.com/" class="btn btn-primary" target="_blank">TinyLearn</a> <a href="https://github.com/eric-purrington/TinyLearn" class="btn btn-primary" target="_blank">App's Github Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a name="Contact"></a>
+
+    <div class="container-fluid text-center footer">
+        <div class="textHolder">
+            <h3>Contact me</h3>
+            <a href="https://github.com/eric-purrington" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/ericpurrington/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            <a href="mailto:eric.purrington@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+            <p>Copyright &copy; 2020 Eric Purrington</p>
+        </div>
+    </div>
+
+    <!-- Importing bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

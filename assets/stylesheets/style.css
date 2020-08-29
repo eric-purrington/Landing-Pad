@@ -1,0 +1,122 @@
+/* Scrollbar changes*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4b89ac;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #343a40;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #4b89ac !important;
+}
+
+.nav-trans {
+    background: transparent !important;
+}
+
+
+.nav-item {
+    font-size: larger;
+    color: white;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/SnowyMountains.jpeg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.heroCard {
+    margin: 100px 0px;
+}
+
+.heroCard .fas, .heroCard .fab {
+    color: #4b89ac;
+}
+
+.myImg {
+    height: 400px;
+    width: auto;
+    border-radius: 200px;
+}
+
+.footer {
+    background-color: #4b89ac;
+    color: white;
+    padding: 50px;
+    margin-top: 200px;
+}
+
+.marginCon {
+    margin-top: 200px;
+}
+
+.collabCon {
+    margin-bottom: 50px;
+}
+
+.smallerCon h5 {
+    margin-top: 30px;
+}
+
+.card-header, .card-body {
+    background-color: #4b89ac;
+    color: white;
+}
+
+.col-sm-4 .card .card-body {
+    font-size: large;
+}
+
+.col-sm-6 .card {
+    color: black;
+}
+
+.row {
+    margin: 20px auto;
+}
+
+.fab, .fas {
+    margin: 10px;
+}
+
+.footer .fas, .footer .fab {
+    color: white;
+}
+
+.col-sm-6 .card .card-body a {
+    background-color: #4b89ac;
+    border: 1px solid #e4fcf9;
+}
+
+.col-sm-6 .card .card-body a:hover {
+    background-color: #e4fcf9;
+    color: #4b89ac;
+}
